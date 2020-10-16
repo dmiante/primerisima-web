@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>.:INICIO:.</title>
+<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+
+</head>
+<script type="text/javascript" src="js/validacion.js"></script>
+<body>
+<div id="paginaweb">
+<div id="header">
+<header>
+	<img class="portada-header" src="img\portada.jpg" width="1024" height="200"/>
+</header>
+</div>
+<div id="nav">
+<nav>
+	<ul>
+    	<li><a href="index.html">Inicio</a></li>
+        <li> <a href="biografia.html"> Biografía </a> </li>
+        <li> <a href="discografia.html"> Discografia </a> </li>
+        <li> <a href="galeria.html"> Galeria </a> </li>
+        <li> <a href="noticias.html"> Noticias </a> </li>
+        <li> <a href="contacto.html"> Contacto </a> </li>
+     </ul>
+</nav>
+</div>
+<div id="contacto">
+</br>
+</br>
+<h2>Contacto</h2>
+</br>
+</br>
+    <form name="frmContactos" id="frmContactos" method="post" action="#" enctype="multipart/form-data" onSubmit="return validar();">
+    <div>
+    <label class="label" for="txtNombre">Nombre: </label>
+    <input type="text" name="txtNombre" id="txtNombre" 
+    placeholder="Escriba aqui su nombre"/><span id="errorNomb"></span>
+    </div>
+    <div>
+    <label class="label" for="txtApellido">Apellido: </label>
+    <input type="text" name="txtApellido" id="txtApellido" 
+    placeholder="Escriba aqui su apellido"/><span id="errorAp"></span>
+    </div>
+    <div>
+    <label class="label" for="txtApellido">Edad: </label>
+    <input type="text" name="txtApellido" id="txtApellido" 
+    placeholder="Escriba aqui su apellido"/><span id="errorAp"></span>
+    </div>
+    <div>
+    <label class="label" for="txtEmail">Email: </label>
+    <input type="email" name="txtEmail" id="txtEmail" placeholder="email@dominio.com"/>
+    </div>
+    <div class="centro">
+	<label class="label"  for="txtMensaje">Mensaje: </label>
+	<textarea name="txtMensaje" name="txtMensaje" id="txtMensaje" rows=	"5" cols="50">
+	</textarea>
+</div>
+</br>
+    <div class="centro">
+    <input type="submit" name="btnEnviar" id="btnEnviar" value="Enviar"/>
+    <input type="reset" name="btnBorrar" id="btnBorrar" value="Borrar"/>
+    </div>
+    </form>
+</div>
+<footer>
+  <h3>Damián Soto[WEBMASTER]</h3>
+</footer>
+</div>
+
+</body>
+</html>

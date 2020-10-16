@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-color:#FF6600;
+}
+#paginaweb{
+	width:100%;
+	margin:0px auto;
+	font: 11px/1.75em Verdana, Tahoma, arial, sans-serif;
+	color: #666666; 
+	text-align: center;
+}
+
+#header {
+	padding:10px 10px 10px;
+	text-align:center;
+}
+footer{
+	 padding:10px 10px 10px;
+	 text-align:center;
+	 color:#FFF;
+	}
+.center{text-align:center}
+
+#nav{
+	text-align:center;
+}
+
+#nav ul{
+	list-style-type:none;
+}
+#nav ul li{
+	display:inline-block;
+}
+#nav ul li a{
+	display:block;
+	width:150px;
+	background-color:#F90;
+	color:#FFF;
+	text-decoration:none;
+	font-family:Helvetica;
+	font-size:17px;
+	padding:20px 0px 20px 0px;
+	margin:0px;
+	text-align:center;
+}
+#nav ul li a:hover{
+	background-color:#FFF;
+	color:#000;
+}
+
+#bio{
+	margin:50px;
+	
+}
+#bio p{
+	width:800px;
+	background-color:#FFF;
+	margin:20px auto;
+	font-family:Helvetica;
+	font-size:12px;
+	text-align:justify;
+	padding:30px;
+}
+
+#bio h1{
+	text-align:center;
+	color:#FFF;
+}
+
+
+#frmContactos {
+	width:400px;
+	margin:20px auto;
+	border:2px solid #000;
+	padding:20px;
+	color:#333;
+	text-align:center;
+}
+
+.label{
+	display:inline-block;
+	width:150px;
+	margin:3px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
